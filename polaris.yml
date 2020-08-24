@@ -1,0 +1,44 @@
+version: "1"
+project:
+  name: demo-dotnet
+  branch: demo-dotnet
+  revision:
+    name: demo-dotnet
+    date: 2020-08-24T20:15:27Z
+capture:
+  build:
+    cleanCommands:
+    - shell: [msbuild, VeraDemoNet.sln, '/t:Clean']
+    buildCommands:
+    - shell: [msbuild, VeraDemoNet.sln, '/t:Build']
+  fileSystem:
+    ears:
+      extensions: [ear]
+      files:
+      - directory: ${project.projectDir}
+    java:
+      files:
+      - directory: ${project.projectDir}
+    javascript:
+      files:
+      - directory: ${project.projectDir}
+      - excludeRegex: node_modules|bower_components|vendor
+    php:
+      files:
+      - directory: ${project.projectDir}
+    python:
+      files:
+      - directory: ${project.projectDir}
+    ruby:
+      files:
+      - directory: ${project.projectDir}
+    wars:
+      extensions: [war]
+      files:
+      - directory: ${project.projectDir}
+analyze:
+  mode: central
+install:
+  coverity:
+    version: default
+serverUrl: https://poc71.polaris.synopsys.com
