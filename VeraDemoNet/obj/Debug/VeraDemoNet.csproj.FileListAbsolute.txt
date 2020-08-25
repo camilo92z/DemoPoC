@@ -236,7 +236,6 @@ D:\Synopsys\demo-dotnet\DemoPoC\VeraDemoNet\bin\System.Web.WebPages.Deployment.x
 D:\Synopsys\demo-dotnet\DemoPoC\VeraDemoNet\bin\System.Web.WebPages.Razor.xml
 D:\Synopsys\demo-dotnet\DemoPoC\VeraDemoNet\bin\System.Web.Optimization.xml
 D:\Synopsys\demo-dotnet\DemoPoC\VeraDemoNet\bin\Antlr3.Runtime.pdb
-D:\Synopsys\demo-dotnet\DemoPoC\VeraDemoNet\obj\Debug\VeraDemoNet.csprojAssemblyReference.cache
 D:\Synopsys\demo-dotnet\DemoPoC\VeraDemoNet\obj\Debug\VeraDemoNet.csproj.CoreCompileInputs.cache
 D:\Synopsys\demo-dotnet\DemoPoC\VeraDemoNet\obj\Debug\VeraDemoNet.csproj.CopyComplete
 D:\Synopsys\demo-dotnet\DemoPoC\VeraDemoNet\obj\Debug\VeraDemoNet.dll
