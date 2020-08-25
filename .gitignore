@@ -1,2 +1,4 @@
 .synopsys
 .polaris-coverty.zip
+*.synopsys
+*.polaris-coverty.zip
